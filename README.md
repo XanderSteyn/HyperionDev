@@ -22,6 +22,53 @@ Now, I apply everything I learned about breaking systems to engineer software th
 
 ---
 
+## 📊 Task Results & Scores
+
+<table>
+  <tr>
+    <th>🎯 Task</th>
+    <th>📘 Level</th>
+    <th>✅ Score</th>
+  </tr>
+  <tr>
+    <td>Capstone Project - Variables and Control Structures</td>
+    <td>Level 1</td>
+    <td>100%</td>
+  </tr>
+  <tr>
+    <td>OOP - Synthesis</td>
+    <td>Level 1</td>
+    <td>100%</td>
+  </tr>
+  <tr>
+    <td>Capstone Project - Task Manager</td>
+    <td>Level 1</td>
+    <td>100%</td>
+  </tr>
+  <tr>
+    <td>Capstone Project - Databases</td>
+    <td>Level 2</td>
+    <td>100%</td>
+  </tr>
+  <tr>
+    <td>Django - Sticky Notes Application</td>
+    <td>Level 2</td>
+    <td>Pending</td>
+  </tr>
+  <tr>
+    <td>Capstone Project - News Application</td>
+    <td>Level 2</td>
+    <td>Pending</td>
+  </tr>
+  <tr>
+    <td>Capstone Project - Consolidation</td>
+    <td>Level 3</td>
+    <td>Pending</td>
+  </tr>
+</table>
+
+---
+
 ## 💼 Why This Repository Exists
 
 These projects are my official **HyperionDev** software engineering submissions, reviewed by mentors and shared with partner companies.  
