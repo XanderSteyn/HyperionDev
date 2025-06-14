@@ -196,4 +196,7 @@ If you're a recruiter, collaborator, or company representative looking to explor
 
 ## 📄 License
 
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+This repository is protected by a custom license. See the [LICENSE](LICENSE) file for details.
+
+Unauthorized copying or submission of this work for academic purposes is prohibited.
