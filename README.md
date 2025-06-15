@@ -12,7 +12,6 @@ This repository is more than coursework: it's a reflection of <strong>who I am</
 I'm **Xander Steyn**, a software developer with **5+ years** of hands-on coding experience built on a strong foundation in **cybersecurity**.
 
 For five years, I immersed myself in **ethical hacking**, focusing on exposing vulnerabilities in real-world systems, flaws most developers never even see.  
-I mastered how to break into systems, bypass logic, and exploit vulnerabilities many developers don't even realize they're making.
 
 In 2025, I made a decisive shift, moving fully into **building software**.  
 Now, I apply everything I learned about breaking systems to engineer software that is **secure**, **scalable**, and **built to last**.
