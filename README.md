@@ -182,8 +182,7 @@ These projects are my official HyperionDev software engineering submissions, rev
 
 <h1></h1>
 
-## 📄 License
-
+<img src="https://raw.githubusercontent.com/XanderSteyn/HyperionDev/93be9772064683b84034be62bd68dbe8bf0b2e0d/IGNORE-icons/license.svg" alt="License"/><br>
 
 This repository is protected by a custom license. See the [LICENSE](LICENSE) file for details.
 
