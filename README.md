@@ -68,7 +68,7 @@ Now, I apply everything I learned about breaking systems to engineer software th
 > I don't just write code that works.  
 > I write code that **holds up**, because I know exactly what it looks like when it doesn't.
 
----
+<h1></h1>
 
 ## 💼 Why This Repository Exists
 
@@ -76,7 +76,7 @@ These projects are my official HyperionDev software engineering submissions, rev
 
 > Every file here is written, tested, and submitted by me with the same level of attention I bring to real-world software projects.
 
----
+<h1></h1>
 
 ## 🛠️ Tech Stack & Skills
 
@@ -135,7 +135,7 @@ These projects are my official HyperionDev software engineering submissions, rev
   IDS • Malware Analysis
 </details>
 
----
+<h1></h1>
 
 ## 📊 Task Results & Scores
 
@@ -182,7 +182,7 @@ These projects are my official HyperionDev software engineering submissions, rev
   </tr>
 </table>
 
----
+<h1></h1>
 
 ## 📣 What Reviewers Say
 
@@ -213,34 +213,11 @@ These projects are my official HyperionDev software engineering submissions, rev
 - **Capstone Project - Consolidation**  
   > Review pending: work in progress.
 
----
-
-## 🌍 Connect With Me
-
-If you're a recruiter, collaborator, or company representative looking to explore more of my work, here's where to find me:
-
-<table>
-  <tr>
-    <td>🧠</td>
-    <td><a href="https://leetcode.com/XanderSteyn" target="_blank" rel="noopener noreferrer"><strong>LeetCode</strong></a> - Top 350 globally, 2,500+ problems solved</td>
-  </tr>
-  <tr>
-    <td>🌐</td>
-    <td><a href="https://xandersteyn.co.za" target="_blank" rel="noopener noreferrer"><strong>Portfolio Website</strong></a></td>
-  </tr>
-  <tr>
-    <td>💼</td>
-    <td><a href="https://www.linkedin.com/in/xandersteyn" target="_blank" rel="noopener noreferrer"><strong>LinkedIn</strong></a></td>
-  </tr>
-  <tr>
-    <td>📫</td>
-    <td><a href="mailto:xandersteyn.dev@gmail.com" target="_blank" rel="noopener noreferrer"><strong>Email</strong></a></td>
-  </tr>
-</table>
+<h1></h1>
 
 <p align="center"><strong>❤️ Thank you for visiting. I look forward to connecting and creating meaningful value together.</strong></p>
 
----
+<h1></h1>
 
 ## 📄 License
 
