@@ -1,0 +1,65 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="800"
+  height="250"
+  viewBox="0 0 800 250"
+  fill="none"
+>
+  <style>
+    .title {
+      font: 900 28px Inter, Arial, sans-serif;
+      fill: url(#grad);
+      text-anchor: middle;
+    }
+    .table-header {
+      font: bold 16px Arial, sans-serif;
+      fill: #ffffff;
+    }
+    .table-cell {
+      font: 14px Arial, sans-serif;
+      fill: #eaeaea;
+    }
+    .line {
+      stroke: #555;
+      stroke-width: 1;
+    }
+  </style>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#003C86" />
+      <stop offset="100%" stop-color="#016DF1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Header Text -->
+  <text x="400" y="40" class="title">Languages</text>
+
+  <!-- Table Headers -->
+  <text x="100" y="80" class="table-header">🌐 Language</text>
+  <text x="400" y="80" class="table-header">🛠️ Proficiency</text>
+  <text x="650" y="80" class="table-header">💻 Used In</text>
+  <line x1="40" y1="90" x2="760" y2="90" class="line" />
+
+  <!-- Table Rows -->
+  <text x="100" y="120" class="table-cell">Python</text>
+  <text x="400" y="120" class="table-cell">Advanced</text>
+  <text x="650" y="120" class="table-cell">Django, Flask, Scripts</text>
+
+  <line x1="40" y1="130" x2="760" y2="130" class="line" />
+
+  <text x="100" y="160" class="table-cell">C++</text>
+  <text x="400" y="160" class="table-cell">Advanced</text>
+  <text x="650" y="160" class="table-cell">LeetCode, Competitive Programming</text>
+
+  <line x1="40" y1="170" x2="760" y2="170" class="line" />
+
+  <text x="100" y="200" class="table-cell">JavaScript</text>
+  <text x="400" y="200" class="table-cell">Intermediate</text>
+  <text x="650" y="200" class="table-cell">Front-end Development, Scripts</text>
+
+  <line x1="40" y1="210" x2="760" y2="210" class="line" />
+
+  <text x="100" y="240" class="table-cell">HTML & CSS</text>
+  <text x="400" y="240" class="table-cell">Advanced</text>
+  <text x="650" y="240" class="table-cell">Web Development</text>
+</svg>
