@@ -30,25 +30,6 @@ Now, I apply everything I learned about breaking systems to engineer software th
 
 > I don't just write code that works.  
 > I write code that **holds up**, because I know exactly what it looks like when it doesn't.
-<h1></h1>
-
-<img src="https://raw.githubusercontent.com/XanderSteyn/xandersteyn/b113db8b659381e289a1fc3f046f978768d34d9a/IGNORE-icons/languages.svg" alt="About Me"/><br>
-
-<p>
-  <img width="35px" alt="Python" title="Python" src="https://i.imgur.com/9DKuQJq.png"/>
-  &#8287;&#8287;
-  <img width="35px" alt="SQL" title="SQL" src="https://i.imgur.com/q4kbA6R.png"/>
-  &#8287;&#8287;
-  <img width="35px" alt="C++" title="C++" src="https://i.imgur.com/L6MYzFz.png"/>
-  &#8287;&#8287;
-  <img width="35px" alt="PowerShell" title="PowerShell" src="https://i.imgur.com/Gi7ghAV.png"/>
-  &#8287;&#8287;
-  <img width="35px" alt="HTML" title="HTML" src="https://i.imgur.com/qW497AB.png"/>
-  &#8287;&#8287;
-  <img width="35px" alt="CSS" title="CSS" src="https://i.imgur.com/brIcekt.png"/>
-  &#8287;&#8287;
-  <img width="35px" alt="JavaScript" title="JavaScript" src="https://i.imgur.com/javnhUB.png"/>
-</p>
 
 <h1></h1>
 
@@ -65,55 +46,55 @@ These projects are my official HyperionDev software engineering submissions, rev
 *Click each section below to expand*  
 
 <details>
-  <summary><strong>👨‍💻 Programming</strong></summary>
+  <summary><strong>Programming</strong></summary>
 
-  **💬 Languages**<br>
+  **Languages**<br>
   Python • C++ • SQL • HTML • CSS • JavaScript • PowerShell
 </details>
 
 <details>
-  <summary><strong>🧱 Frameworks & Libraries</strong></summary>
+  <summary><strong>Frameworks & Libraries</strong></summary>
 
-  **🌍 Web & App Development**<br>
+  **Web & App Development**<br>
   Django • Flask • Bootstrap • Qt
 
-  **📊 Data & Automation**<br>
+  **Data & Automation**<br>
   Pandas • Matplotlib • Requests • BeautifulSoup • Selenium
 
-  **🧠 Machine Learning & AI**<br>
+  **Machine Learning & AI**<br>
   TensorFlow • Scikit-learn
 </details>
 
 <details>
-  <summary><strong>🗄️ Databases</strong></summary>
+  <summary><strong>Databases</strong></summary>
 
-  **🧮 Relational**<br>
+  **Relational**<br>
   MySQL • PostgreSQL • SQLite
 
-  **📦 NoSQL**<br>
+  **NoSQL**<br>
   MongoDB
 </details>
 
 <details>
-  <summary><strong>⚙️ Tools & Platforms</strong></summary>
+  <summary><strong>Tools & Platforms</strong></summary>
 
-  **🚀 DevOps & Deployment**<br>
+  **DevOps & Deployment**<br>
   Docker • GitHub Actions • Heroku • AWS • Nginx
 
-  **🧑‍💻 Development & Testing**<br>
+  **Development & Testing**<br>
   Git • GitHub • VS Code • VirtualBox • Linux • PowerShell • REST APIs • unittest
 </details>
 
 <details>
-  <summary><strong>🔐 Security</strong></summary>
+  <summary><strong>Security</strong></summary>
 
-  **🧩 Core Skills**<br>
+  **Core Skills**<br>
   Ethical Hacking • Penetration Testing • Vulnerability Assessment • Secure Coding
 
-  **🌐 Domains**<br>
+  **Domains**<br>
   Network Security • Application Security • Cryptography • Reverse Engineering
 
-  **🛠️ Tools & Techniques**<br>
+  **Tools & Techniques**<br>
   IDS • Malware Analysis
 </details>
 
