@@ -52,7 +52,7 @@ Now, I apply everything I learned about breaking systems to engineer software th
 
 <h1></h1>
 
-<img src="https://raw.githubusercontent.com/XanderSteyn/HyperionDev/e8184e4a085e0bde658bdfa45bfee09fa0668c2a/IGNORE-icons/tech-stack.svg" alt="Tech Stack"/><br>
+<img src="https://raw.githubusercontent.com/XanderSteyn/HyperionDev/1e9f788e17013ed3e4fcfae46c990754e24de352/IGNORE-icons/why-exists.svg" alt="Why This Repository Exists"/><br>
 
 These projects are my official HyperionDev software engineering submissions, reviewed by mentors and shared with partner companies. Beyond assignments, this repository demonstrates what I consistently deliver independently and professionally.
 
@@ -60,7 +60,7 @@ These projects are my official HyperionDev software engineering submissions, rev
 
 <h1></h1>
 
-<img src="https://raw.githubusercontent.com/XanderSteyn/HyperionDev/e8184e4a085e0bde658bdfa45bfee09fa0668c2a/IGNORE-icons/tech-stack.svg" alt="Tech Stack"/><br>
+<img src="https://raw.githubusercontent.com/XanderSteyn/HyperionDev/1e9f788e17013ed3e4fcfae46c990754e24de352/IGNORE-icons/tech-stack.svg" alt="Tech Stack"/><br>
 
 *Click each section below to expand*  
 
@@ -119,7 +119,7 @@ These projects are my official HyperionDev software engineering submissions, rev
 
 <h1></h1>
 
-## 📊 Task Results & Scores
+<img src="https://raw.githubusercontent.com/XanderSteyn/HyperionDev/1e9f788e17013ed3e4fcfae46c990754e24de352/IGNORE-icons/task-scores.svg" alt="Task Scores"/><br>
 
 <table>
   <tr>
