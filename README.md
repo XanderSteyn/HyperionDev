@@ -20,7 +20,8 @@
   </p>
 </h1>
 
-<img src="https://raw.githubusercontent.com/XanderSteyn/xandersteyn/04a72958bf1488f2e569cce8a67088d321aded84/IGNORE-icons/about-me.svg" alt="About Me"/><br>
+<img src="/IGNORE/Header/About Me.svg" alt="About Me" height="25px"/>
+
 I'm **Xander Steyn**, a software developer with **5+ years** of hands-on coding experience built on a strong foundation in **cybersecurity**.
 
 For five years, I immersed myself in **ethical hacking**, focusing on exposing vulnerabilities in real-world systems, flaws most developers never even see.  
@@ -33,7 +34,7 @@ Now, I apply everything I learned about breaking systems to engineer software th
 
 <h1></h1>
 
-<img src="https://raw.githubusercontent.com/XanderSteyn/HyperionDev/1e9f788e17013ed3e4fcfae46c990754e24de352/IGNORE-icons/why-exists.svg" alt="Why This Repository Exists"/><br>
+<img src="/IGNORE/Header/Why This Repository Exists.svg" alt="Why This Repository Exists" height="30"/>
 
 These projects are my official HyperionDev software engineering submissions, reviewed by mentors and shared with partner companies. Beyond assignments, this repository demonstrates what I consistently deliver independently and professionally.
 
@@ -41,7 +42,7 @@ These projects are my official HyperionDev software engineering submissions, rev
 
 <h1></h1>
 
-<img src="https://raw.githubusercontent.com/XanderSteyn/HyperionDev/1e9f788e17013ed3e4fcfae46c990754e24de352/IGNORE-icons/tech-stack.svg" alt="Tech Stack"/><br>
+<img src="/IGNORE/Header/Tech Stack.svg" alt="Tech Stack" height="25px"/>
 
 *Click each section below to expand*  
 
@@ -100,7 +101,7 @@ These projects are my official HyperionDev software engineering submissions, rev
 
 <h1></h1>
 
-<img src="https://raw.githubusercontent.com/XanderSteyn/HyperionDev/1e9f788e17013ed3e4fcfae46c990754e24de352/IGNORE-icons/task-scores.svg" alt="Task Scores"/><br>
+<img src="/IGNORE/Header/Task Scores.svg" alt="Task Scores" height="25px"/>
 
 <table>
   <tr>
@@ -147,7 +148,7 @@ These projects are my official HyperionDev software engineering submissions, rev
 
 <h1></h1>
 
-## 📣 What Reviewers Say
+<img src="/IGNORE/Header/What Reviewers Say.svg" alt="What Reviewers Say" height="30px"/>
 
 - **Capstone Project - Variables and Control Structures**  
   > Your function names follow Python conventions clearly and descriptively.  
@@ -177,12 +178,10 @@ These projects are my official HyperionDev software engineering submissions, rev
   > Review pending: work in progress.
 
 <h1></h1>
-
 <p align="center"><strong>❤️ Thank you for visiting. I look forward to connecting and creating meaningful value together.</strong></p>
-
 <h1></h1>
 
-<img src="https://raw.githubusercontent.com/XanderSteyn/HyperionDev/93be9772064683b84034be62bd68dbe8bf0b2e0d/IGNORE-icons/license.svg" alt="License"/><br>
+<img src="/IGNORE/Header/License.svg" alt="License" height="25px"/>
 
 This repository is protected by a custom license. See the [LICENSE](LICENSE) file for details.
 
