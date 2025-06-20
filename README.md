@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/XanderSteyn/xandersteyn/ddc0637e086101ac33c2c2c24a228e5ede26f2b1/IGNORE-icons/header.svg" alt="Xander Steyn"/><br>
+  <img src="https://raw.githubusercontent.com/XanderSteyn/HyperionDev/a40e416cd8667b8cad97a0150c1dcc8f5623d4e5/IGNORE-icons/header.svg" alt="Xander Steyn"/><br>
   
   <p align="center">
     <a href="https://www.linkedin.com/in/xandersteyn/">
@@ -45,16 +45,7 @@ Today, I focus on crafting tools and applications that solve real-world problems
   <img width="35px" alt="JavaScript" title="JavaScript" src="https://i.imgur.com/javnhUB.png"/>
 </p>
 
-
-
-<h1 align="center">💻 Xander Steyn | Software Engineer</h1>
-
-<p align="center">
-Welcome to my GitHub portfolio showcasing software engineering projects I completed during my time at <a href="https://www.hyperiondev.com/" target="_blank" rel="noopener noreferrer">HyperionDev</a><br>
-This repository is more than coursework: it's a reflection of <strong>who I am</strong> as a developer and what I bring to the table.
-</p>
-
----
+<h1></h1>
 
 ## 🧠 Who I Am
 
