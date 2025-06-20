@@ -47,7 +47,7 @@ Today, I focus on crafting tools and applications that solve real-world problems
 
 <h1></h1>
 
-## 🧠 Who I Am
+<img src="https://raw.githubusercontent.com/XanderSteyn/HyperionDev/e8184e4a085e0bde658bdfa45bfee09fa0668c2a/IGNORE-icons/tech-stack.svg" alt="Tech Stack"/><br>
 
 I'm **Xander Steyn**, a software developer with **5+ years** of hands-on coding experience built on a strong foundation in **cybersecurity**.
 
