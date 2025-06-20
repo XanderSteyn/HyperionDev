@@ -21,10 +21,15 @@
 </h1>
 
 <img src="https://raw.githubusercontent.com/XanderSteyn/xandersteyn/04a72958bf1488f2e569cce8a67088d321aded84/IGNORE-icons/about-me.svg" alt="About Me"/><br>
-With 5+ years of programming experience, I transitioned from ethical hacking and cybersecurity into software engineering in early 2025.<br>
-I discovered that my true passion lies in building practical software solutions rather than just securing systems.<br>
-Today, I focus on crafting tools and applications that solve real-world problems, while continuously sharpening my skills through hands-on projects and ongoing learning.
+I'm **Xander Steyn**, a software developer with **5+ years** of hands-on coding experience built on a strong foundation in **cybersecurity**.
 
+For five years, I immersed myself in **ethical hacking**, focusing on exposing vulnerabilities in real-world systems, flaws most developers never even see.  
+
+In 2025, I made a decisive shift, moving fully into **building software**.  
+Now, I apply everything I learned about breaking systems to engineer software that is **secure**, **scalable**, and **built to last**.
+
+> I don't just write code that works.  
+> I write code that **holds up**, because I know exactly what it looks like when it doesn't.
 <h1></h1>
 
 <img src="https://raw.githubusercontent.com/XanderSteyn/xandersteyn/b113db8b659381e289a1fc3f046f978768d34d9a/IGNORE-icons/languages.svg" alt="About Me"/><br>
@@ -49,27 +54,13 @@ Today, I focus on crafting tools and applications that solve real-world problems
 
 <img src="https://raw.githubusercontent.com/XanderSteyn/HyperionDev/e8184e4a085e0bde658bdfa45bfee09fa0668c2a/IGNORE-icons/tech-stack.svg" alt="Tech Stack"/><br>
 
-I'm **Xander Steyn**, a software developer with **5+ years** of hands-on coding experience built on a strong foundation in **cybersecurity**.
-
-For five years, I immersed myself in **ethical hacking**, focusing on exposing vulnerabilities in real-world systems, flaws most developers never even see.  
-
-In 2025, I made a decisive shift, moving fully into **building software**.  
-Now, I apply everything I learned about breaking systems to engineer software that is **secure**, **scalable**, and **built to last**.
-
-> I don't just write code that works.  
-> I write code that **holds up**, because I know exactly what it looks like when it doesn't.
-
-<h1></h1>
-
-## 💼 Why This Repository Exists
-
 These projects are my official HyperionDev software engineering submissions, reviewed by mentors and shared with partner companies. Beyond assignments, this repository demonstrates what I consistently deliver independently and professionally.
 
 > Every file here is written, tested, and submitted by me with the same level of attention I bring to real-world software projects.
 
 <h1></h1>
 
-## 🛠️ Tech Stack & Skills
+<img src="https://raw.githubusercontent.com/XanderSteyn/HyperionDev/e8184e4a085e0bde658bdfa45bfee09fa0668c2a/IGNORE-icons/tech-stack.svg" alt="Tech Stack"/><br>
 
 *Click each section below to expand*  
 
