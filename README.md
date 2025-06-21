@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/XanderSteyn/HyperionDev/a40e416cd8667b8cad97a0150c1dcc8f5623d4e5/IGNORE-icons/header.svg" alt="Xander Steyn"/><br>
+  <img src="/IGNORE/Header/Heading.svg" alt="Xander Steyn"/><br>
   
   <p align="center">
     <a href="https://www.linkedin.com/in/xandersteyn/">
