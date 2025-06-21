@@ -49,54 +49,88 @@ These projects are my official HyperionDev software engineering submissions, rev
 <details>
   <summary><strong>Programming</strong></summary>
 
-  **Languages**<br>
-  Python • C++ • SQL • HTML • CSS • JavaScript • PowerShell
+&#8287;**Languages:**<br>
+&#8287;&#8287;• Python<br>
+&#8287;&#8287;• C++<br>
+&#8287;&#8287;• SQL<br>
+&#8287;&#8287;• HTML<br>
+&#8287;&#8287;• CSS<br>
+&#8287;&#8287;• JavaScript<br>
+&#8287;&#8287;• PowerShell
 </details>
 
 <details>
   <summary><strong>Frameworks & Libraries</strong></summary>
 
-  **Web & App Development**<br>
-  Django • Flask • Bootstrap • Qt
+&#8287;**Web & App Development:**<br>
+&#8287;&#8287;• Django<br>
+&#8287;&#8287;• Flask<br>
+&#8287;&#8287;• Bootstrap<br>
+&#8287;&#8287;• Qt
 
-  **Data & Automation**<br>
-  Pandas • Matplotlib • Requests • BeautifulSoup • Selenium
+&#8287;**Data & Automation:**<br>
+&#8287;&#8287;• Pandas<br>
+&#8287;&#8287;• Matplotlib<br>
+&#8287;&#8287;• Requests<br>
+&#8287;&#8287;• BeautifulSoup<br>
+&#8287;&#8287;• Selenium
 
-  **Machine Learning & AI**<br>
-  TensorFlow • Scikit-learn
+&#8287;**Machine Learning & AI:**<br>
+&#8287;&#8287;• TensorFlow<br>
+&#8287;&#8287;• Scikit-learn
 </details>
 
 <details>
-  <summary><strong>Databases</strong></summary>
+  <summary><strong>Databases:</strong></summary>
 
-  **Relational**<br>
-  MySQL • PostgreSQL • SQLite
+&#8287;**Relational:**<br>
+&#8287;&#8287;• MySQL<br>
+&#8287;&#8287;• PostgreSQL<br>
+&#8287;&#8287;• SQLite
 
-  **NoSQL**<br>
-  MongoDB
+**NoSQL:**<br>
+&#8287;&#8287;• MongoDB
 </details>
 
 <details>
   <summary><strong>Tools & Platforms</strong></summary>
 
-  **DevOps & Deployment**<br>
-  Docker • GitHub Actions • Heroku • AWS • Nginx
+&#8287;**DevOps & Deployment:**<br>
+&#8287;&#8287;• Docker<br>
+&#8287;&#8287;• GitHub Actions<br>
+&#8287;&#8287;• Heroku<br>
+&#8287;&#8287;• AWS<br>
+&#8287;&#8287;• Nginx
 
-  **Development & Testing**<br>
-  Git • GitHub • VS Code • VirtualBox • Linux • PowerShell • REST APIs • unittest
+&#8287;**Development & Testing:**<br>
+&#8287;&#8287;• Git<br>
+&#8287;&#8287;• GitHub<br>
+&#8287;&#8287;• VS Code<br>
+&#8287;&#8287;• VirtualBox<br>
+&#8287;&#8287;• Linux<br>
+&#8287;&#8287;• PowerShell<br>
+&#8287;&#8287;• REST APIs<br>
+&#8287;&#8287;• unittest
 </details>
 
 <details>
   <summary><strong>Security</strong></summary>
 
-  **Core Skills**<br>
-  Ethical Hacking • Penetration Testing • Vulnerability Assessment • Secure Coding
+&#8287;**Core Skills:**<br>
+&#8287;&#8287;• Ethical Hacking<br>
+&#8287;&#8287;• Penetration Testing<br>
+&#8287;&#8287;• Vulnerability Assessment<br>
+&#8287;&#8287;• Secure Coding
 
-  **Domains**<br>
-  Network Security • Application Security • Cryptography • Reverse Engineering
+&#8287;**Domains:**<br>
+&#8287;&#8287;• Network Security<br>
+&#8287;&#8287;• Application Security<br>
+&#8287;&#8287;• Cryptography<br>
+&#8287;&#8287;• Reverse Engineering
 
-  **Tools & Techniques**<br>
-  IDS • Malware Analysis
+&#8287;**Tools & Techniques:**<br>
+&#8287;&#8287;• IDS<br>
+&#8287;&#8287;• Malware Analysis
 </details>
 
 <h1></h1>
@@ -105,46 +139,47 @@ These projects are my official HyperionDev software engineering submissions, rev
 
 <table>
   <tr>
-    <th>🎯 Task</th>
-    <th>📘 Level</th>
-    <th>🏆 Score</th>
+    <th style="background-color: red; color: white">Task</th>
+    <th style="background-color: red; color: white">Level</th>
+    <th style="background-color: red; color: white">Score</th>
   </tr>
   <tr>
     <td>Capstone Project - Variables and Control Structures</td>
-    <td>🥇Level 1</td>
+    <td>Level 1</td>
     <td>100%</td>
   </tr>
   <tr>
     <td>OOP - Synthesis</td>
-    <td>🥇Level 1</td>
+    <td>Level 1</td>
     <td>100%</td>
   </tr>
   <tr>
     <td>Capstone Project - Task Manager</td>
-    <td>🥇Level 1</td>
+    <td>Level 1</td>
     <td>100%</td>
   </tr>
   <tr>
     <td>Capstone Project - Databases</td>
-    <td>🥈Level 2</td>
+    <td>Level 2</td>
     <td>100%</td>
   </tr>
   <tr>
     <td>Django - Sticky Notes Application</td>
-    <td>🥈Level 2</td>
+    <td>Level 2</td>
     <td>In Progress</td>
   </tr>
   <tr>
     <td>Capstone Project - News Application</td>
-    <td>🥈Level 2</td>
+    <td>Level 2</td>
     <td>In Progress</td>
   </tr>
   <tr>
     <td>Capstone Project - Consolidation</td>
-    <td>🥉Level 3</td>
+    <td>Level 3</td>
     <td>In Progress</td>
   </tr>
 </table>
+
 
 <h1></h1>
 
