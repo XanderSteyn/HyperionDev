@@ -212,8 +212,13 @@ These projects are my official HyperionDev software engineering submissions, rev
 - **Capstone Project - Consolidation**  
   > Review pending: work in progress.
 
-<h1></h1>
-<p align="center"><strong>❤️ Thank you for visiting. I look forward to connecting and creating meaningful value together.</strong></p>
+<h1></h1><br>
+
+ <p align="center">
+  <img width="15px" alt="Thank You!" title="Thank You!" src="https://i.imgur.com/g5yEIOu.png" />
+  <strong>Thank you for visiting. I look forward to connecting and creating meaningful value together.</strong>
+</p>
+
 <h1></h1>
 
 <img src="/IGNORE/Header/License.svg" alt="License" height="25px"/>
