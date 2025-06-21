@@ -4,16 +4,13 @@
 
 <img src="/IGNORE/Sticky Notes/Features.svg" alt="Features" height="20px"/>
 
-- **Create Notes:** Add new sticky notes with a title and content. Validation ensures all required fields are filled and title length is within limits.
-- **Read/View Notes:** See all notes in a list (newest first) and view full details of any note.
-- **Update/Edit Notes:** Edit existing notes with pre-filled forms and validation.
-- **Delete Notes:** Delete notes with a confirmation prompt to prevent accidental loss.
-- **User-Friendly Interface:** Clean, modern UI with clear navigation and feedback messages.
-- **Robust Validation:** Server-side validation for required fields and maximum title length.
-- **Error Handling:** 404 error pages for non-existent notes (view, edit, delete).
-- **Comprehensive Unit Tests:** Automated tests for all CRUD operations, validation, edge cases, and model methods.
-- **RESTful URL Structure:** Clean, descriptive URLs for all note operations.
-- **Design Diagrams:** Includes class, sequence, use case, and CRUD matrix diagrams for documentation.
+- **Create Notes:** Add new sticky notes with title and content.
+- **View Notes:** List and review saved notes in a clean, sorted view.
+- **Edit Notes:** Modify existing notes with pre-filled forms and validations.
+- **Delete Notes:** Safely remove notes with a confirmation prompt.
+- **User Friendly:** Intuitive design, built-in error handling, and seamless navigation.
+- **Well Tested:** Includes automated unit and integration test coverage.
+- **Clear Architecture:** RESTful URLs, structured app design, and supporting design diagrams.
 
 <h1></h1>
 
@@ -92,13 +89,6 @@ python manage.py test notes
 ```
 
 <h1></h1><br>
-
-<p align="center">
-  <img width="15px" alt="Thank You!" title="Thank You!" src="https://i.imgur.com/g5yEIOu.png" />
-  <strong>Thank you for visiting. I look forward to connecting and creating meaningful value together.</strong>
-</p>
-
-<h1></h1>
 
 <img src="/IGNORE/Header/License.svg" alt="License" height="25px"/>
 
