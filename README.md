@@ -1,30 +1,30 @@
 <h1 align="center">
-  <img src="/IGNORE/Header/Heading.svg" alt="Xander Steyn"/><br>
+  <img src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Headers/Heading.svg" alt="Xander Steyn"/><br>
   
   <p align="center">
     <a href="https://www.hyperiondev.com/portfolio/XS25040017890/">
-      <img width="40px" alt="Portfolio" title="Portfolio" src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE-icons/Social/hypwer.png"/>
+      <img width="40px" alt="Portfolio" title="Portfolio" src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Socials/HyperionDev.png"/>
     </a>
     &#8287;&#8287;
     <a href="https://www.linkedin.com/in/xandersteyn/">
-      <img width="40px" alt="LinkedIn" title="LinkedIn" src="https://i.imgur.com/fYjRHI0.png"/>
+      <img width="40px" alt="LinkedIn" title="LinkedIn" src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Socials/LinkedIn.png"/>
     </a>
     &#8287;&#8287;
     <a href="https://leetcode.com/u/XanderSteyn/">
-      <img width="40px" alt="LeetCode" title="LeetCode" src="https://i.imgur.com/9HMkKJQ.png"/>
+      <img width="40px" alt="LeetCode" title="LeetCode" src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Socials/LeetCode.png"/>
     </a>
     &#8287;&#8287;
     <a href="mailto:xandersteyn.dev@gmail.com">
-      <img width="40px" alt="Email" title="Email" src="https://i.imgur.com/5PqDnWU.png"/>
+      <img width="40px" alt="Email" title="Email" src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Socials/Email.png"/>
     </a>
     &#8287;&#8287;
     <a href="https://xandersteyn.co.za/">
-      <img width="40px" alt="Personal Website" title="Personal Website" src="https://i.imgur.com/WQgmUxP.png"/>
+      <img width="40px" alt="Personal Website" title="Personal Website" src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Socials/Personal%20Website.png"/>
     </a>
   </p>
 </h1>
 
-<img src="/IGNORE/Header/About Me.svg" alt="About Me" height="25px"/>
+<img src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Headers/About%20Me.svg" alt="About Me" height="25px"/>
 
 I'm **Xander Steyn**, a software developer with **5+ years** of hands-on coding experience built on a strong foundation in **cybersecurity**.
 
@@ -38,7 +38,7 @@ Now, I apply everything I learned about breaking systems to engineer software th
 
 <h1></h1>
 
-<img src="/IGNORE/Header/Why This Repository Exists.svg" alt="Why This Repository Exists" height="30"/>
+<img src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Headers/Why%20This%20Repository%20Exists.svg" alt="Why This Repository Exists" height="30"/>
 
 These projects are my official HyperionDev software engineering submissions, reviewed by mentors and shared with partner companies. Beyond assignments, this repository demonstrates what I consistently deliver independently and professionally.
 
@@ -46,7 +46,7 @@ These projects are my official HyperionDev software engineering submissions, rev
 
 <h1></h1>
 
-<img src="/IGNORE/Header/Tech Stack.svg" alt="Tech Stack" height="25px"/>
+<img src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Headers/Tech%20Stack.svg" alt="Tech Stack" height="25px"/>
 
 *Click each section below to expand*  
 
@@ -139,7 +139,7 @@ These projects are my official HyperionDev software engineering submissions, rev
 
 <h1></h1>
 
-<img src="/IGNORE/Header/Task Scores.svg" alt="Task Scores" height="25px"/>
+<img src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Headers/Task%20Scores.svg" alt="Task Scores" height="25px"/>
 
 <table>
   <tr>
@@ -187,7 +187,7 @@ These projects are my official HyperionDev software engineering submissions, rev
 
 <h1></h1>
 
-<img src="/IGNORE/Header/What Reviewers Say.svg" alt="What Reviewers Say" height="30px"/>
+<img src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Headers/What%20Reviewers%20Say.svg" alt="What Reviewers Say" height="30px"/>
 
 - **Capstone Project - Variables and Control Structures**  
   > Your function names follow Python conventions clearly and descriptively.  
@@ -219,13 +219,13 @@ These projects are my official HyperionDev software engineering submissions, rev
 <h1></h1><br>
 
  <p align="center">
-  <img width="15px" alt="Thank You!" title="Thank You!" src="https://i.imgur.com/g5yEIOu.png" />
+  <img width="15px" alt="Thank You!" title="Thank You!" src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Icons/Heart.png" />
   <strong>Thank you for visiting. I look forward to connecting and creating meaningful value together.</strong>
 </p>
 
 <h1></h1>
 
-<img src="/IGNORE/Header/License.svg" alt="License" height="25px"/>
+<img src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Headers/License.svg" alt="License" height="25px"/>
 
 This repository is protected by a custom license. See the [LICENSE](LICENSE) file for details.
 
