@@ -2,6 +2,10 @@
   <img src="/IGNORE/Header/Heading.svg" alt="Xander Steyn"/><br>
   
   <p align="center">
+    <a href="https://www.hyperiondev.com/portfolio/XS25040017890/">
+      <img width="40px" alt="Portfolio" title="Portfolio" src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE-icons/Social/hypwer.png"/>
+    </a>
+    &#8287;&#8287;
     <a href="https://www.linkedin.com/in/xandersteyn/">
       <img width="40px" alt="LinkedIn" title="LinkedIn" src="https://i.imgur.com/fYjRHI0.png"/>
     </a>
@@ -15,7 +19,7 @@
     </a>
     &#8287;&#8287;
     <a href="https://xandersteyn.co.za/">
-      <img width="40px" alt="Portfolio" title="Portfolio" src="https://i.imgur.com/WQgmUxP.png"/>
+      <img width="40px" alt="Personal Website" title="Personal Website" src="https://i.imgur.com/WQgmUxP.png"/>
     </a>
   </p>
 </h1>
