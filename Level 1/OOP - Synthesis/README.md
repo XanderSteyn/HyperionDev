@@ -38,12 +38,36 @@ git clone https://github.com/XanderSteyn/HyperionDev/
 cd HyperionDev\Level 1\OOP - Synthesis
 ```
 
-#### 3. Install required dependencies
+#### 3. Create a virtual environment
+- **Windows:**
+  ```powershell
+  python -m venv venv
+  ```
+- **macOS/Linux:**
+  ```bash
+  python3 -m venv venv
+  ```
+
+#### 4. Activate the virtual environment
+- **Windows (Command Prompt):**
+  ```cmd
+  venv\Scripts\activate.bat
+  ```
+- **Windows (PowerShell):**
+  ```powershell
+  venv\Scripts\Activate.ps1
+  ```
+- **macOS/Linux:**
+  ```bash
+  source venv/bin/activate
+  ```
+
+#### 5. Install required dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-#### 4. Run the application
+#### 6. Run the application
 ```bash
 python inventory.py
 ```
