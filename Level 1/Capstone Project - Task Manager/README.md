@@ -1,8 +1,8 @@
 <h1 align="center">
-  <img src="/IGNORE/Task Manager/Heading.svg" alt="Task Manager"/><br>
+  <img src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Headers/Tasks/Task%20Manager.svg" alt="Task Manager"/><br>
 </h1>
 
-<img src="/IGNORE/Sticky Notes/Features.svg" alt="Features" height="25px"/>
+<img src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Headers/Repos/Features.svg" alt="Features" height="25px"/>
 
 - **User Authentication:** Secure login system with password masking
 - **User Management:** Admin can register new users to the system
@@ -23,7 +23,7 @@
 
 <h1></h1>
 
-<img src="/IGNORE/Sticky Notes/Technologies Used.svg" alt="Technologies Used" height="30px"/>
+<img src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Headers/Repos/Technologies%20Used.svg" alt="Technologies Used" height="30px"/>
 
 - **Python** – Core programming language
 - **maskpass** – For secure password input with masking
@@ -32,7 +32,7 @@
 
 <h2></h2>
 
-<img src="/IGNORE/Sticky Notes/Setup Instructions.svg" alt="Setup Instructions" height="30px"/>
+<img src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Headers/Repos/Setup%20Instructions.svg" alt="Setup Instructions" height="30px"/>
 
 #### 1. Clone the repository
 ```bash
@@ -78,9 +78,9 @@ pip install -r requirements.txt
 python task_manager.py
 ```
 
-<h1></h1><br>
+<h1></h1>
 
-<img src="/IGNORE/Header/License.svg" alt="License" height="25px"/>
+<img src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Headers/License.svg" alt="License" height="25px"/>
 
 This repository is protected by a custom license. See the [LICENSE](LICENSE) file for details.
 
