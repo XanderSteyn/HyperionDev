@@ -29,12 +29,12 @@
 
 #### 1. Clone the repository
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/XanderSteyn/HyperionDev/
 ```
 
 #### 2. Change to the project directory
 ```bash
-cd sticky_notes
+cd HyperionDev\Level 2\Sticky Notes
 ```
 
 #### 3. Create a virtual environment
