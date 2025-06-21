@@ -1,8 +1,8 @@
 <h1 align="center">
-  <img src="/IGNORE/Sticky Notes/Heading.svg" alt="Sticky Notes"/><br>
+  <img src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Headers/Tasks/Sticky%20Notes.svg" alt="Sticky Notes"/><br>
 </h1>
 
-<img src="/IGNORE/Sticky Notes/Features.svg" alt="Features" height="25px"/>
+<img src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Headers/Repos/Features.svg" alt="Features" height="25px"/>
 
 - **Create Notes:** Add new sticky notes with title and content.
 - **View Notes:** List and review saved notes in a clean, sorted view.
@@ -14,7 +14,7 @@
 
 <h1></h1>
 
-<img src="/IGNORE/Sticky Notes/Technologies Used.svg" alt="Technologies Used" height="30px"/>
+<img src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Headers/Repos/Technologies%20Used.svg" alt="Technologies Used" height="30px"/>
 
 - **Python** – Core programming language
 - **Django** – Web framework for rapid, secure development
@@ -25,7 +25,7 @@
 
 <h2></h2>
 
-<img src="/IGNORE/Sticky Notes/Setup Instructions.svg" alt="Setup Instructions" height="30px"/>
+<img src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Headers/Repos/Setup%20Instructions.svg" alt="Setup Instructions" height="30px"/>
 
 #### 1. Clone the repository
 ```bash
@@ -81,16 +81,16 @@ Open your browser and go to [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
 <h1></h1>
 
-<img src="/IGNORE/Sticky Notes/Running Tests.svg" alt="Running Tests" height="30px"/>
+<img src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Headers/Repos/Running%20Tests.svg" alt="Running Tests" height="30px"/>
 
 To run the full test suite and ensure everything works as expected:
 ```bash
 python manage.py test notes
 ```
 
-<h1></h1><br>
+<h1></h1>
 
-<img src="/IGNORE/Header/License.svg" alt="License" height="25px"/>
+<img src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Headers/License.svg" alt="License" height="25px"/>
 
 This repository is protected by a custom license. See the [LICENSE](LICENSE) file for details.
 
