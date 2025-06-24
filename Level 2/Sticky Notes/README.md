@@ -97,6 +97,6 @@ python manage.py test notes
 
 <img src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Headers/License.svg" alt="License" height="25px"/>
 
-This repository is protected by a custom license. See the [LICENSE](LICENSE) file for details.
+This repository is protected by a custom license. See the [LICENSE](https://github.com/XanderSteyn/HyperionDev/blob/main/LICENSE) file for details.
 
 Unauthorized copying or submission of this work for academic purposes is prohibited.
