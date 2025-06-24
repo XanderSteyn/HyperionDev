@@ -2,12 +2,6 @@
   <img src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Headers/Tasks/Sticky%20Notes.svg" alt="Sticky Notes"/><br>
 </h1>
 
-**Note:**  
-Unit tests are located inside the `sticky_notes_application/notes/tests` app directory, following standard Django conventions.  
-All source code (app and project) is placed directly within the `sticky_notes_application` folder, which aligns with the project requirements and maintains clarity and ease of navigation.
-
-<h1></h1>
-
 <img src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Headers/Repos/Features.svg" alt="Features" height="25px"/>
 
 - **Create Notes:** Add new sticky notes with title and content
