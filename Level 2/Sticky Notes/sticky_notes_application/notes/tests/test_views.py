@@ -28,7 +28,7 @@ class NoteViewTest(TestCase):
 
     def test_note_list_view(self):
         """
-        Test the note list view returns status 200 and contains the note title
+        Test the note list view - returns status 200 and contains the note title
         """
         response = self.client.get(reverse("note_list"))
         self.assertEqual(response.status_code, 200)
@@ -36,7 +36,7 @@ class NoteViewTest(TestCase):
 
     def test_note_detail_view(self):
         """
-        Test the note detail view returns status 200 and contains note data
+        Test the note detail view - returns status 200 and contains note data
         """
         response = self.client.get(
             reverse("note_detail", args=[str(self.note.id)])
