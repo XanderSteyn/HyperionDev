@@ -92,6 +92,7 @@ To run the full test suite and ensure everything works as expected:
 ```bash
 python manage.py test notes
 ```
+Unit tests can be found within the `notes` app directory (`notes/tests.py`), following Django best practices.
 
 <h1></h1>
 
