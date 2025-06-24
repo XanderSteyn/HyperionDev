@@ -50,15 +50,15 @@ cd HyperionDev\Level 2\Sticky Notes
 #### 4. Activate the virtual environment
 - **Windows (Command Prompt):**
   ```cmd
-  venv\Scripts\activate.bat
+  .\venv\Scripts\activate.bat
   ```
 - **Windows (PowerShell):**
   ```powershell
-  venv\Scripts\Activate.ps1
+  .\venv\Scripts\Activate.ps1
   ```
 - **macOS/Linux:**
   ```bash
-  source venv/bin/activate
+  source .\venv/bin/activate
   ```
 
 #### 5. Install dependencies
