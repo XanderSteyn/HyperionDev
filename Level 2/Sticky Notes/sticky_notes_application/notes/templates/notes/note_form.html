@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    {% if form.instance.pk %}Edit Note{% else %}Create Note{% endif %} - Sticky Notes
+{% endblock %}
+
+{% block content %}
+    <div class="form-container">
+        <h2>
+            {% if form.instance.pk %}
+                <i class="fas fa-edit"></i> Edit Note
+            {% else %}
+                <i class="fas fa-plus"></i> Create New Note
+            {% endif %}
+        </h2>
+
+        <!-- Form for creating or editing a note -->
+        <form method="post" id="note-form">
+            {% csrf_token %}
+
+            <!-- Title input field with label and error message display -->
+            <div class="form-group">
+                <label for="{{ form.title.id_for_label }}">
+                    <i class="fas fa-heading"></i> Title
+                </label>
+                {{ form.title }}
+                {% if form.title.errors %}
+                    <div class="error">
+                        <i class="fas fa-exclamation-circle"></i> {{ form.title.errors.0 }}
+                    </div>
+                {% endif %}
+            </div>
+
+            <!-- Content textarea field with label and error message display -->
+            <div class="form-group">
+                <label for="{{ form.content.id_for_label }}">
+                    <i class="fas fa-align-left"></i> Content
+                </label>
+                {{ form.content }}
+                {% if form.content.errors %}
+                    <div class="error">
+                        <i class="fas fa-exclamation-circle"></i> {{ form.content.errors.0 }}
+                    </div>
+                {% endif %}
+            </div>
+
+            <div class="note_actions">
+                <!-- Save button triggers form submission via JavaScript to avoid default link action -->
+                <a href="#" onclick="document.getElementById('note-form').submit(); return false;" class="button save-button">
+                    <i class="fas fa-save"></i> 
+                    {% if form.instance.pk %}Update Note{% else %}Create Note{% endif %}
+                </a>
+                <a href="#" class="button cancel-button" onclick="goBack()">
+                    <i class="fas fa-times"></i> Cancel
+                </a>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        // Navigate back using browser history or fallback to note list page
+        function goBack() {
+            if (document.referrer) {
+                window.history.back();
+            } else {
+                window.location.href = "{% url 'note_list' %}";
+            }
+        }
+    </script>
+{% endblock %}
