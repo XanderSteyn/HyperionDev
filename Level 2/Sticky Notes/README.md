@@ -59,7 +59,7 @@ cd "HyperionDev\Level 2\Sticky Notes\sticky_notes_application"
   ```
 - **macOS/Linux:**
   ```
-  source .\venv/bin/activate
+  source ./venv/bin/activate
   ```
 
 #### 5. Install dependencies
