@@ -1,11 +1,11 @@
 """
 Tests for the sticky notes application
 
-This module contains comprehensive unit tests for the sticky notes application,
-covering all aspects of the application including models, views, forms, admin,
-URLs, templates, messages, and edge cases. The tests ensure the application
-functions correctly and handles various scenarios including validation, error
-cases, and user interactions
+This module contains unit tests for the sticky notes application, covering all
+aspects of the application including models, views, forms, admin, URLs,
+templates, messages, and edge cases
+The tests ensure the application functions correctly and handles various
+scenarios including validation, error cases, and user interactions
 
 The tests use Django's TestCase class and follow best practices for testing
 Django applications, including proper setup, teardown, and assertion methods
@@ -40,7 +40,7 @@ class NoteModelTest(TestCase):
                   'This is a test note'
         """
         # Create a Note object for testing
-        Note.objects.create(title='Test Note', content='This is a test note')
+        Note.objects.create(title="Test Note", content="This is a test note")
 
     def test_note_has_title(self):
         """
@@ -51,7 +51,7 @@ class NoteModelTest(TestCase):
         """
         # Test that a Note object has the expected title
         note = Note.objects.get(id=1)
-        self.assertEqual(note.title, 'Test Note')
+        self.assertEqual(note.title, "Test Note")
 
     def test_note_has_content(self):
         """
@@ -62,7 +62,7 @@ class NoteModelTest(TestCase):
         """
         # Test that a Note object has the expected content
         note = Note.objects.get(id=1)
-        self.assertEqual(note.content, 'This is a test note')
+        self.assertEqual(note.content, "This is a test note")
 
     def test_note_created_at_field(self):
         """
@@ -82,7 +82,7 @@ class NoteModelTest(TestCase):
             None: Test passes if __str__ returns the note title
         """
         note = Note.objects.get(id=1)
-        self.assertEqual(str(note), 'Test Note')
+        self.assertEqual(str(note), "Test Note")
 
 
 class NoteViewTest(TestCase):
@@ -105,8 +105,8 @@ class NoteViewTest(TestCase):
         """
         # Create a Note object for testing views
         self.note = Note.objects.create(
-            title='Test Note',
-            content='This is a test note'
+            title="Test Note",
+            content="This is a test note"
         )
 
     def test_note_list_view(self):
@@ -117,9 +117,9 @@ class NoteViewTest(TestCase):
             None: Test passes if response status is 200 and contains note title
         """
         # Test the note-list view
-        response = self.client.get(reverse('note_list'))
+        response = self.client.get(reverse("note_list"))
         self.assertEqual(response.status_code, 200)
-        self.assertContains(response, 'Test Note')
+        self.assertContains(response, "Test Note")
 
     def test_note_detail_view(self):
         """
@@ -130,11 +130,11 @@ class NoteViewTest(TestCase):
         """
         # Test the note-detail view
         response = self.client.get(
-            reverse('note_detail', args=[str(self.note.id)])
+            reverse("note_detail", args=[str(self.note.id)])
         )
         self.assertEqual(response.status_code, 200)
-        self.assertContains(response, 'Test Note')
-        self.assertContains(response, 'This is a test note')
+        self.assertContains(response, "Test Note")
+        self.assertContains(response, "This is a test note")
 
     def test_note_create_view(self):
         """
@@ -144,13 +144,13 @@ class NoteViewTest(TestCase):
             None: Test passes if note is created and response redirects
         """
         # Test the note-create view
-        response = self.client.post(reverse('note_create'), {
-            'title': 'Another Note',
-            'content': 'Content for another note.'
+        response = self.client.post(reverse("note_create"), {
+            "title": "Another Note",
+            "content": "Content for another note."
         })
         # Should redirect after creation
         self.assertEqual(response.status_code, 302)
-        self.assertTrue(Note.objects.filter(title='Another Note').exists())
+        self.assertTrue(Note.objects.filter(title="Another Note").exists())
 
     def test_note_update_view(self):
         """
@@ -161,17 +161,17 @@ class NoteViewTest(TestCase):
         """
         # Test the note-update view
         response = self.client.post(
-            reverse('note_update', args=[str(self.note.id)]),
+            reverse("note_update", args=[str(self.note.id)]),
             {
-                'title': 'Updated Note',
-                'content': 'Updated content.'
+                "title": "Updated Note",
+                "content": "Updated content."
             }
         )
         # Should redirect after update
         self.assertEqual(response.status_code, 302)
         self.note.refresh_from_db()
-        self.assertEqual(self.note.title, 'Updated Note')
-        self.assertEqual(self.note.content, 'Updated content.')
+        self.assertEqual(self.note.title, "Updated Note")
+        self.assertEqual(self.note.content, "Updated content.")
 
     def test_note_delete_view(self):
         """
@@ -182,7 +182,7 @@ class NoteViewTest(TestCase):
         """
         # Test the note-delete view
         response = self.client.post(
-            reverse('note_delete', args=[str(self.note.id)])
+            reverse("note_delete", args=[str(self.note.id)])
         )
         # Should redirect after delete
         self.assertEqual(response.status_code, 302)
@@ -196,14 +196,14 @@ class NoteViewTest(TestCase):
             None: Test passes if form validation works correctly
         """
         # Test creating a note with missing title (should fail validation)
-        response = self.client.post(reverse('note_create'), {
-            'title': '',
-            'content': 'Content with no title.'
+        response = self.client.post(reverse("note_create"), {
+            "title": "",
+            "content": "Content with no title."
         })
         self.assertEqual(response.status_code, 200)  # Form re-renders
-        form = response.context['form']
-        self.assertIn('title', form.errors)
-        self.assertIn('This field is required.', form.errors['title'])
+        form = response.context["form"]
+        self.assertIn("title", form.errors)
+        self.assertIn("This field is required.", form.errors["title"])
 
     def test_note_update_view_invalid(self):
         """
@@ -214,16 +214,16 @@ class NoteViewTest(TestCase):
         """
         # Test updating a note with missing content (should fail validation)
         response = self.client.post(
-            reverse('note_update', args=[str(self.note.id)]),
+            reverse("note_update", args=[str(self.note.id)]),
             {
-                'title': 'Title present',
-                'content': ''
+                "title": "Title present",
+                "content": ""
             }
         )
         self.assertEqual(response.status_code, 200)  # Form re-renders
-        form = response.context['form']
-        self.assertIn('content', form.errors)
-        self.assertIn('This field is required.', form.errors['content'])
+        form = response.context["form"]
+        self.assertIn("content", form.errors)
+        self.assertIn("This field is required.", form.errors["content"])
 
     def test_note_list_view_context(self):
         """
@@ -233,10 +233,10 @@ class NoteViewTest(TestCase):
             None: Test passes if context contains expected variables
         """
         # Test that the note_list view provides the correct context
-        response = self.client.get(reverse('note_list'))
-        self.assertIn('notes', response.context)
-        self.assertIn('page_title', response.context)
-        self.assertEqual(response.context['page_title'], 'Sticky Notes')
+        response = self.client.get(reverse("note_list"))
+        self.assertIn("notes", response.context)
+        self.assertIn("page_title", response.context)
+        self.assertEqual(response.context["page_title"], "Sticky Notes")
 
     def test_note_detail_view_context(self):
         """
@@ -247,10 +247,10 @@ class NoteViewTest(TestCase):
         """
         # Test that the note_detail view provides the correct context
         response = self.client.get(
-            reverse('note_detail', args=[str(self.note.id)])
+            reverse("note_detail", args=[str(self.note.id)])
         )
-        self.assertIn('note', response.context)
-        self.assertEqual(response.context['note'].title, 'Test Note')
+        self.assertIn("note", response.context)
+        self.assertEqual(response.context["note"].title, "Test Note")
 
     def test_note_detail_view_404(self):
         """
@@ -260,7 +260,7 @@ class NoteViewTest(TestCase):
             None: Test passes if 404 error is returned
         """
         # Test that requesting a non-existent note returns 404
-        response = self.client.get(reverse('note_detail', args=[999]))
+        response = self.client.get(reverse("note_detail", args=[999]))
         self.assertEqual(response.status_code, 404)
 
     def test_note_update_view_404(self):
@@ -271,7 +271,7 @@ class NoteViewTest(TestCase):
             None: Test passes if 404 error is returned
         """
         # Test that updating a non-existent note returns 404
-        response = self.client.get(reverse('note_update', args=[999]))
+        response = self.client.get(reverse("note_update", args=[999]))
         self.assertEqual(response.status_code, 404)
 
     def test_note_delete_view_404(self):
@@ -282,7 +282,7 @@ class NoteViewTest(TestCase):
             None: Test passes if 404 error is returned
         """
         # Test that deleting a non-existent note returns 404
-        response = self.client.get(reverse('note_delete', args=[999]))
+        response = self.client.get(reverse("note_delete", args=[999]))
         self.assertEqual(response.status_code, 404)
 
     def test_note_create_long_title(self):
@@ -293,18 +293,18 @@ class NoteViewTest(TestCase):
             None: Test passes if title length validation works correctly
         """
         # Test creating a note with a very long title (over 255 chars)
-        long_title = 'A' * 300
-        response = self.client.post(reverse('note_create'), {
-            'title': long_title,
-            'content': 'Long title test.'
+        long_title = "A" * 300
+        response = self.client.post(reverse("note_create"), {
+            "title": long_title,
+            "content": "Long title test."
         })
         self.assertEqual(response.status_code, 200)
-        form = response.context['form']
-        self.assertIn('title', form.errors)
+        form = response.context["form"]
+        self.assertIn("title", form.errors)
         self.assertTrue(
             any(
-                'Ensure this value has at most 255 characters' in error
-                for error in form.errors['title']
+                "Ensure this value has at most 255 characters" in error
+                for error in form.errors["title"]
             )
         )
 
@@ -315,14 +315,14 @@ class NoteViewTest(TestCase):
         Returns:
             None: Test passes if long content is handled correctly
         """
-        # Test creating a note with a very long content (should succeed)
-        long_content = 'B' * 10000
-        response = self.client.post(reverse('note_create'), {
-            'title': 'Long Content',
-            'content': long_content
+        # Test creating a note with very long content (should succeed)
+        long_content = "B" * 10000
+        response = self.client.post(reverse("note_create"), {
+            "title": "Long Content",
+            "content": long_content
         })
         self.assertEqual(response.status_code, 302)
-        self.assertTrue(Note.objects.filter(title='Long Content').exists())
+        self.assertTrue(Note.objects.filter(title="Long Content").exists())
 
     def test_note_create_view_get_request(self):
         """
@@ -331,10 +331,10 @@ class NoteViewTest(TestCase):
         Returns:
             None: Test passes if form is displayed correctly
         """
-        response = self.client.get(reverse('note_create'))
+        response = self.client.get(reverse("note_create"))
         self.assertEqual(response.status_code, 200)
-        self.assertIn('form', response.context)
-        self.assertTemplateUsed(response, 'notes/note_form.html')
+        self.assertIn("form", response.context)
+        self.assertTemplateUsed(response, "notes/note_form.html")
 
     def test_note_update_view_get_request(self):
         """
@@ -344,11 +344,11 @@ class NoteViewTest(TestCase):
             None: Test passes if form is displayed with existing data
         """
         response = self.client.get(
-            reverse('note_update', args=[str(self.note.id)])
+            reverse("note_update", args=[str(self.note.id)])
         )
         self.assertEqual(response.status_code, 200)
-        self.assertIn('form', response.context)
-        self.assertEqual(response.context['form'].instance.title, 'Test Note')
+        self.assertIn("form", response.context)
+        self.assertEqual(response.context["form"].instance.title, "Test Note")
 
     def test_note_delete_view_get_request(self):
         """
@@ -358,11 +358,11 @@ class NoteViewTest(TestCase):
             None: Test passes if confirmation page is displayed
         """
         response = self.client.get(
-            reverse('note_delete', args=[str(self.note.id)])
+            reverse("note_delete", args=[str(self.note.id)])
         )
         self.assertEqual(response.status_code, 200)
-        self.assertIn('note', response.context)
-        self.assertTemplateUsed(response, 'notes/note_confirm_delete.html')
+        self.assertIn("note", response.context)
+        self.assertTemplateUsed(response, "notes/note_confirm_delete.html")
 
     def test_success_message_on_create(self):
         """
@@ -371,13 +371,13 @@ class NoteViewTest(TestCase):
         Returns:
             None: Test passes if success message is displayed
         """
-        response = self.client.post(reverse('note_create'), {
-            'title': 'Success Test',
-            'content': 'Test content'
+        response = self.client.post(reverse("note_create"), {
+            "title": "Success Test",
+            "content": "Test content"
         })
-        self.assertRedirects(response, reverse('note_list'))
+        self.assertRedirects(response, reverse("note_list"))
         # Verify the note was actually created
-        self.assertTrue(Note.objects.filter(title='Success Test').exists())
+        self.assertTrue(Note.objects.filter(title="Success Test").exists())
 
     def test_success_message_on_update(self):
         """
@@ -387,16 +387,16 @@ class NoteViewTest(TestCase):
             None: Test passes if success message is displayed
         """
         response = self.client.post(
-            reverse('note_update', args=[str(self.note.id)]),
+            reverse("note_update", args=[str(self.note.id)]),
             {
-                'title': 'Updated Success',
-                'content': 'Updated content'
+                "title": "Updated Success",
+                "content": "Updated content"
             }
         )
-        self.assertRedirects(response, reverse('note_list'))
+        self.assertRedirects(response, reverse("note_list"))
         # Verify the note was actually updated
         self.note.refresh_from_db()
-        self.assertEqual(self.note.title, 'Updated Success')
+        self.assertEqual(self.note.title, "Updated Success")
 
     def test_success_message_on_delete(self):
         """
@@ -406,9 +406,9 @@ class NoteViewTest(TestCase):
             None: Test passes if success message is displayed
         """
         response = self.client.post(
-            reverse('note_delete', args=[str(self.note.id)])
+            reverse("note_delete", args=[str(self.note.id)])
         )
-        self.assertRedirects(response, reverse('note_list'))
+        self.assertRedirects(response, reverse("note_list"))
         # Verify the note was actually deleted
         self.assertFalse(Note.objects.filter(id=self.note.id).exists())
 
@@ -428,10 +428,10 @@ class NoteURLTest(TestCase):
         Returns:
             None: Test passes if URL resolves to correct view
         """
-        url = reverse('note_list')
-        self.assertEqual(url, '/')
+        url = reverse("note_list")
+        self.assertEqual(url, "/")
         resolver = resolve(url)
-        self.assertEqual(resolver.func.__name__, 'note_list')
+        self.assertEqual(resolver.func.__name__, "note_list")
 
     def test_note_detail_url(self):
         """
@@ -440,10 +440,10 @@ class NoteURLTest(TestCase):
         Returns:
             None: Test passes if URL resolves to correct view
         """
-        url = reverse('note_detail', args=[1])
-        self.assertEqual(url, '/note/1/')
+        url = reverse("note_detail", args=[1])
+        self.assertEqual(url, "/note/1/")
         resolver = resolve(url)
-        self.assertEqual(resolver.func.__name__, 'note_detail')
+        self.assertEqual(resolver.func.__name__, "note_detail")
 
     def test_note_create_url(self):
         """
@@ -452,10 +452,10 @@ class NoteURLTest(TestCase):
         Returns:
             None: Test passes if URL resolves to correct view
         """
-        url = reverse('note_create')
-        self.assertEqual(url, '/note/new/')
+        url = reverse("note_create")
+        self.assertEqual(url, "/note/new/")
         resolver = resolve(url)
-        self.assertEqual(resolver.func.__name__, 'note_create')
+        self.assertEqual(resolver.func.__name__, "note_create")
 
     def test_note_update_url(self):
         """
@@ -464,10 +464,10 @@ class NoteURLTest(TestCase):
         Returns:
             None: Test passes if URL resolves to correct view
         """
-        url = reverse('note_update', args=[1])
-        self.assertEqual(url, '/note/1/edit/')
+        url = reverse("note_update", args=[1])
+        self.assertEqual(url, "/note/1/edit/")
         resolver = resolve(url)
-        self.assertEqual(resolver.func.__name__, 'note_update')
+        self.assertEqual(resolver.func.__name__, "note_update")
 
     def test_note_delete_url(self):
         """
@@ -476,10 +476,10 @@ class NoteURLTest(TestCase):
         Returns:
             None: Test passes if URL resolves to correct view
         """
-        url = reverse('note_delete', args=[1])
-        self.assertEqual(url, '/note/1/delete/')
+        url = reverse("note_delete", args=[1])
+        self.assertEqual(url, "/note/1/delete/")
         resolver = resolve(url)
-        self.assertEqual(resolver.func.__name__, 'note_delete')
+        self.assertEqual(resolver.func.__name__, "note_delete")
 
 
 class NoteTemplateTest(TestCase):
@@ -498,8 +498,8 @@ class NoteTemplateTest(TestCase):
             Note: A test note for template testing
         """
         self.note = Note.objects.create(
-            title='Template Test',
-            content='Template test content'
+            title="Template Test",
+            content="Template test content"
         )
 
     def test_note_list_template(self):
@@ -509,8 +509,8 @@ class NoteTemplateTest(TestCase):
         Returns:
             None: Test passes if correct template is used
         """
-        response = self.client.get(reverse('note_list'))
-        self.assertTemplateUsed(response, 'notes/note_list.html')
+        response = self.client.get(reverse("note_list"))
+        self.assertTemplateUsed(response, "notes/note_list.html")
 
     def test_note_detail_template(self):
         """
@@ -520,9 +520,9 @@ class NoteTemplateTest(TestCase):
             None: Test passes if correct template is used
         """
         response = self.client.get(
-            reverse('note_detail', args=[str(self.note.id)])
+            reverse("note_detail", args=[str(self.note.id)])
         )
-        self.assertTemplateUsed(response, 'notes/note_detail.html')
+        self.assertTemplateUsed(response, "notes/note_detail.html")
 
     def test_note_form_template(self):
         """
@@ -531,8 +531,8 @@ class NoteTemplateTest(TestCase):
         Returns:
             None: Test passes if correct template is used
         """
-        response = self.client.get(reverse('note_create'))
-        self.assertTemplateUsed(response, 'notes/note_form.html')
+        response = self.client.get(reverse("note_create"))
+        self.assertTemplateUsed(response, "notes/note_form.html")
 
     def test_note_update_template(self):
         """
@@ -542,9 +542,9 @@ class NoteTemplateTest(TestCase):
             None: Test passes if correct template is used
         """
         response = self.client.get(
-            reverse('note_update', args=[str(self.note.id)])
+            reverse("note_update", args=[str(self.note.id)])
         )
-        self.assertTemplateUsed(response, 'notes/note_form.html')
+        self.assertTemplateUsed(response, "notes/note_form.html")
 
     def test_note_delete_template(self):
         """
@@ -554,9 +554,9 @@ class NoteTemplateTest(TestCase):
             None: Test passes if correct template is used
         """
         response = self.client.get(
-            reverse('note_delete', args=[str(self.note.id)])
+            reverse("note_delete", args=[str(self.note.id)])
         )
-        self.assertTemplateUsed(response, 'notes/note_confirm_delete.html')
+        self.assertTemplateUsed(response, "notes/note_confirm_delete.html")
 
     def test_base_template_inheritance(self):
         """
@@ -565,9 +565,9 @@ class NoteTemplateTest(TestCase):
         Returns:
             None: Test passes if templates extend base.html
         """
-        response = self.client.get(reverse('note_list'))
-        self.assertContains(response, 'Sticky Notes')
-        self.assertContains(response, 'Create Note')
+        response = self.client.get(reverse("note_list"))
+        self.assertContains(response, "Sticky Notes")
+        self.assertContains(response, "Create Note")
 
 
 class NoteAdminTest(TestCase):
@@ -586,12 +586,12 @@ class NoteAdminTest(TestCase):
             Note: Test notes for admin testing
         """
         self.note1 = Note.objects.create(
-            title='Short Note',
-            content='Short content'
+            title="Short Note",
+            content="Short content"
         )
         self.note2 = Note.objects.create(
-            title='Long Note',
-            content='A' * 150  # Long content to test preview
+            title="Long Note",
+            content="A" * 150  # Long content to test preview
         )
 
     def test_admin_content_preview_short(self):
@@ -603,7 +603,7 @@ class NoteAdminTest(TestCase):
         """
         admin_instance = NoteAdmin(Note, admin.site)
         preview = admin_instance.content_preview(self.note1)
-        self.assertEqual(preview, 'Short content')
+        self.assertEqual(preview, "Short content")
 
     def test_admin_content_preview_long(self):
         """
@@ -614,7 +614,7 @@ class NoteAdminTest(TestCase):
         """
         admin_instance = NoteAdmin(Note, admin.site)
         preview = admin_instance.content_preview(self.note2)
-        self.assertIn('...', preview)
+        self.assertIn("...", preview)
         self.assertEqual(len(preview), 103)  # 100 chars + '...'
 
     def test_admin_list_display(self):
@@ -625,9 +625,9 @@ class NoteAdminTest(TestCase):
             None: Test passes if list display is configured correctly
         """
         admin_instance = NoteAdmin(Note, admin.site)
-        self.assertIn('title', admin_instance.list_display)
-        self.assertIn('content_preview', admin_instance.list_display)
-        self.assertIn('created_at', admin_instance.list_display)
+        self.assertIn("title", admin_instance.list_display)
+        self.assertIn("content_preview", admin_instance.list_display)
+        self.assertIn("created_at", admin_instance.list_display)
 
     def test_admin_search_fields(self):
         """
@@ -637,8 +637,8 @@ class NoteAdminTest(TestCase):
             None: Test passes if search fields are configured correctly
         """
         admin_instance = NoteAdmin(Note, admin.site)
-        self.assertIn('title', admin_instance.search_fields)
-        self.assertIn('content', admin_instance.search_fields)
+        self.assertIn("title", admin_instance.search_fields)
+        self.assertIn("content", admin_instance.search_fields)
 
     def test_admin_list_filter(self):
         """
@@ -648,7 +648,7 @@ class NoteAdminTest(TestCase):
             None: Test passes if list filter is configured correctly
         """
         admin_instance = NoteAdmin(Note, admin.site)
-        self.assertIn('created_at', admin_instance.list_filter)
+        self.assertIn("created_at", admin_instance.list_filter)
 
     def test_admin_readonly_fields(self):
         """
@@ -658,7 +658,7 @@ class NoteAdminTest(TestCase):
             None: Test passes if readonly fields are configured correctly
         """
         admin_instance = NoteAdmin(Note, admin.site)
-        self.assertIn('created_at', admin_instance.readonly_fields)
+        self.assertIn("created_at", admin_instance.readonly_fields)
 
     def test_admin_ordering(self):
         """
@@ -668,7 +668,7 @@ class NoteAdminTest(TestCase):
             None: Test passes if ordering is configured correctly
         """
         admin_instance = NoteAdmin(Note, admin.site)
-        self.assertEqual(admin_instance.ordering, ('-created_at',))
+        self.assertEqual(admin_instance.ordering, ("-created_at",))
 
 
 class NoteModelMethodTest(TestCase):
@@ -690,8 +690,8 @@ class NoteModelMethodTest(TestCase):
         Returns:
             None: Test passes if __str__ returns the note title
         """
-        note = Note.objects.create(title='String Method', content='Test')
-        self.assertEqual(str(note), 'String Method')
+        note = Note.objects.create(title="String Method", content="Test")
+        self.assertEqual(str(note), "String Method")
 
 
 class NoteEdgeCaseTest(TestCase):
@@ -709,9 +709,9 @@ class NoteEdgeCaseTest(TestCase):
         Returns:
             None: Test passes if empty state is handled correctly
         """
-        response = self.client.get(reverse('note_list'))
+        response = self.client.get(reverse("note_list"))
         self.assertEqual(response.status_code, 200)
-        self.assertNotContains(response, 'Test Note')
+        self.assertNotContains(response, "Test Note")
 
     def test_note_with_special_characters(self):
         """
@@ -720,7 +720,7 @@ class NoteEdgeCaseTest(TestCase):
         Returns:
             None: Test passes if special characters are handled correctly
         """
-        response = self.client.post(reverse('note_create'), {
+        response = self.client.post(reverse("note_create"), {
             'title': 'Special & Characters < > " \'',
             'content': 'Content with special chars: & < > " \''
         })
@@ -735,13 +735,13 @@ class NoteEdgeCaseTest(TestCase):
         Returns:
             None: Test passes if unicode characters are handled correctly
         """
-        response = self.client.post(reverse('note_create'), {
-            'title': 'Unicode: 你好世界',
-            'content': 'Content with unicode: 你好世界'
+        response = self.client.post(reverse("note_create"), {
+            "title": "Unicode: 你好世界",
+            "content": "Content with unicode: 你好世界"
         })
         self.assertEqual(response.status_code, 302)
-        note = Note.objects.get(title='Unicode: 你好世界')
-        self.assertIn('你好世界', note.content)
+        note = Note.objects.get(title="Unicode: 你好世界")
+        self.assertIn("你好世界", note.content)
 
     def test_note_with_html_content(self):
         """
@@ -750,10 +750,10 @@ class NoteEdgeCaseTest(TestCase):
         Returns:
             None: Test passes if HTML content is handled correctly
         """
-        response = self.client.post(reverse('note_create'), {
-            'title': 'HTML Test',
-            'content': '<script>alert("test")</script><p>Hello</p>'
+        response = self.client.post(reverse("note_create"), {
+            "title": "HTML Test",
+            "content": "<script>alert('test')</script><p>Hello</p>"
         })
         self.assertEqual(response.status_code, 302)
-        note = Note.objects.get(title='HTML Test')
-        self.assertIn('<script>alert("test")</script>', note.content)
+        note = Note.objects.get(title="HTML Test")
+        self.assertIn("<script>alert('test')</script>", note.content)
