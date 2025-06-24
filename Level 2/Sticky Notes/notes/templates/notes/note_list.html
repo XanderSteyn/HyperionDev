@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block title %}All Notes - Sticky Notes{% endblock %}
+
+{% block content %}
+    <h2><i class="fas fa-list"></i> All Notes</h2>
+    
+    <div class="notes-container">
+        {% for note in notes %}
+            <div class="note">
+                <!-- Display note title -->
+                <h3>{{ note.title }}</h3>
+
+                <!-- Display truncated note content (up to 100 characters) -->
+                <p class="note-content">{{ note.content|truncatechars:100 }}</p>
+
+                <!-- Display formatted creation date -->
+                <p class="note-date"><i class="fas fa-calendar-alt"></i> Created: {{ note.created_at|date:"F j, Y, g:i a" }}</p>
+
+                <!-- Action buttons for viewing, editing, and deleting the note -->
+                <div class="note_actions">
+                    <a href="{% url 'note_detail' pk=note.pk %}" class="button view-button">
+                        <i class="fas fa-eye"></i> View
+                    </a>
+                    <a href="{% url 'note_update' pk=note.pk %}" class="button edit-button">
+                        <i class="fas fa-edit"></i> Edit
+                    </a>
+                    <a href="{% url 'note_delete' pk=note.pk %}" class="button delete-button">
+                        <i class="fas fa-trash"></i> Delete
+                    </a>
+                </div>
+            </div>
+        {% empty %}
+            <!-- Empty state: prompt user to create their first note -->
+            <div class="empty-state">
+                <h3>No notes yet!</h3>
+                <p>Create your first note to get started.</p>
+                <a href="{% url 'note_create' %}" class="button save-button">
+                    <i class="fas fa-plus"></i> Create Your First Note
+                </a>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
