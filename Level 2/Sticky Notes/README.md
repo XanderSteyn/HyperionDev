@@ -34,7 +34,7 @@ git clone https://github.com/XanderSteyn/HyperionDev/
 
 #### 2. Change to the project directory
 ```bash
-cd HyperionDev\Level 2\Sticky Notes
+cd "HyperionDev/Level 2/Sticky Notes"
 ```
 
 #### 3. Create a virtual environment
@@ -71,12 +71,17 @@ pip install -r requirements.txt
 python manage.py migrate
 ```
 
-#### 7. Run the development server
+#### 7. Create superuser
+```bash
+python manage.py createsuperuser
+```
+
+#### 8. Run the development server
 ```bash
 python manage.py runserver
 ```
 
-#### 8. Access the app
+#### 9. Access the app
 Open your browser and go to [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
 <h1></h1>
