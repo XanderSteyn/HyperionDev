@@ -35,12 +35,12 @@ All source code (app and project) is placed directly within the `sticky_notes_ap
 
 #### 1. Clone the repository
 ```bash
-git clone https://github.com/hyperiondev-bootcamps/XS25040017890
+git clone https://github.com/XanderSteyn/HyperionDev
 ```
 
 #### 2. Change to the project directory
 ```bash
-cd "XS25040017890/Level 2 - Introduction to Software Engineering/M06T05 – Django – Sticky Notes Application Part 2/sticky_notes"
+cd "HyperionDev\Level 2\Sticky Notes\sticky_notes_application"
 ```
 
 #### 3. Create a virtual environment
