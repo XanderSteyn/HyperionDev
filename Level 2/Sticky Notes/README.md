@@ -2,6 +2,25 @@
   <img src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Headers/Tasks/Sticky%20Notes.svg" alt="Sticky Notes"/><br>
 </h1>
 
+This submission folder contains all required components of the Sticky Notes application task, organized as follows:
+
+- `Diagrams/`  
+  Contains all design diagrams related to the project.
+
+- `notes/`  
+  The Django app folder, which includes the source code for the Sticky Notes app. This folder contains the unit tests (`tests.py`) following Django best practices.
+
+- `sticky_notes/`  
+  The Django project folder containing project-level configurations like settings, URLs, and WSGI/ASGI files.
+
+- Root files such as `manage.py`, `requirements.txt`, `.gitignore`, `README.md`, and other text files are placed in the submission folder for easy access and to allow the project to be run and tested immediately.
+
+**Note:**  
+Unit tests are located inside the `notes/` app directory in `tests.py` following standard Django conventions.  
+All source code (app and project) is placed directly within the submission folder alongside the diagrams folder and supporting files, which aligns with the project requirements and maintains clarity and ease of navigation.
+
+<h1></h1>
+
 <img src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Headers/Repos/Features.svg" alt="Features" height="25px"/>
 
 - **Create Notes:** Add new sticky notes with title and content.
