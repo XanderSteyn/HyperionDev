@@ -170,7 +170,7 @@ These projects are my official HyperionDev software engineering submissions, rev
   <tr>
     <td>Django - Sticky Notes Application</td>
     <td>Level 2</td>
-    <td>In Progress</td>
+    <td>100%</td>
   </tr>
   <tr>
     <td>Capstone Project - News Application</td>
