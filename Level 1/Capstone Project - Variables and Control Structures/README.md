@@ -30,7 +30,7 @@ git clone https://github.com/XanderSteyn/HyperionDev/
 
 #### 2. Change to the project directory
 ```bash
-cd HyperionDev\Level 1\Capstone Project - Variables and Control Structures
+cd "HyperionDev\Level 1\Capstone Project - Variables and Control Structures"
 ```
 
 #### 3. Run the application
