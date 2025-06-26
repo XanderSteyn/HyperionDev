@@ -32,12 +32,12 @@
 
 #### 1. Clone the repository
 ```bash
-git clone https://github.com/XanderSteyn/HyperionDev/
+git clone https://github.com/XanderSteyn/HyperionDev
 ```
 
 #### 2. Change to the project directory
 ```bash
-cd HyperionDev\Level2\Databases
+cd "HyperionDev\Level 2\Databases"
 ```
 
 #### 3. Create a virtual environment
@@ -53,15 +53,15 @@ cd HyperionDev\Level2\Databases
 #### 4. Activate the virtual environment
 - **Windows (Command Prompt):**
   ```cmd
-  venv\Scripts\activate.bat
+  .\venv\Scripts\activate.bat
   ```
 - **Windows (PowerShell):**
   ```powershell
-  venv\Scripts\Activate.ps1
+  .\venv\Scripts\Activate.ps1
   ```
 - **macOS/Linux:**
   ```bash
-  source venv/bin/activate
+  source ./venv/bin/activate
   ```
 
 #### 5. Install dependencies
