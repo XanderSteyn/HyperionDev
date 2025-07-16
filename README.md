@@ -51,91 +51,117 @@ These projects are my official HyperionDev software engineering submissions, rev
 *Click each section below to expand*  
 
 <details>
-  <summary><strong>Programming</strong></summary>
+  <summary><strong>Languages</strong></summary>
 
-&#8287;**Languages:**<br>
-&#8287;&#8287;• Python<br>
-&#8287;&#8287;• C++<br>
-&#8287;&#8287;• SQL<br>
-&#8287;&#8287;• HTML<br>
-&#8287;&#8287;• CSS<br>
-&#8287;&#8287;• JavaScript<br>
-&#8287;&#8287;• PowerShell
+&#8287;• Python  
+&#8287;• C++  
+&#8287;• SQL  
+&#8287;• JavaScript  
+&#8287;• HTML  
+&#8287;• CSS  
+&#8287;• PowerShell  
+&#8287;• Bash / Shell scripting  
+&#8287;• AutoHotkey  
+&#8287;• Dart  
 </details>
 
 <details>
   <summary><strong>Frameworks & Libraries</strong></summary>
 
 &#8287;**Web & App Development:**<br>
-&#8287;&#8287;• Django<br>
-&#8287;&#8287;• Flask<br>
-&#8287;&#8287;• Bootstrap<br>
-&#8287;&#8287;• Qt
+&#8287;&#8287;• Django  
+&#8287;&#8287;• Flask  
+&#8287;&#8287;• Bootstrap  
+&#8287;&#8287;• Qt  
+&#8287;&#8287;• Electron  
 
 &#8287;**Data & Automation:**<br>
-&#8287;&#8287;• Pandas<br>
-&#8287;&#8287;• Matplotlib<br>
-&#8287;&#8287;• Requests<br>
-&#8287;&#8287;• BeautifulSoup<br>
-&#8287;&#8287;• Selenium
+&#8287;&#8287;• Pandas  
+&#8287;&#8287;• NumPy  
+&#8287;&#8287;• Matplotlib  
+&#8287;&#8287;• Requests  
+&#8287;&#8287;• BeautifulSoup  
+&#8287;&#8287;• Selenium  
+&#8287;&#8287;• Scrapy  
+&#8287;&#8287;• OpenCV  
+&#8287;&#8287;• smtplib  
+&#8287;&#8287;• Scapy  
+&#8287;&#8287;• PyAutoGUI  
 
 &#8287;**Machine Learning & AI:**<br>
-&#8287;&#8287;• TensorFlow<br>
-&#8287;&#8287;• Scikit-learn
+&#8287;&#8287;• TensorFlow  
+&#8287;&#8287;• PyTorch  
+&#8287;&#8287;• Scikit-learn  
+&#8287;&#8287;• Transformers.js  
+&#8287;&#8287;• MediaPipe  
 </details>
 
 <details>
-  <summary><strong>Databases:</strong></summary>
+  <summary><strong>Databases</strong></summary>
 
 &#8287;**Relational:**<br>
-&#8287;&#8287;• MySQL<br>
-&#8287;&#8287;• PostgreSQL<br>
-&#8287;&#8287;• SQLite
+&#8287;&#8287;• MySQL  
+&#8287;&#8287;• SQLite  
+&#8287;&#8287;• MariaDB  
 
-**NoSQL:**<br>
-&#8287;&#8287;• MongoDB
+&#8287;**NoSQL:**<br>
+&#8287;&#8287;• MongoDB  
+
+&#8287;**ORM Tools:**<br>
+&#8287;&#8287;• Django ORM  
 </details>
 
 <details>
   <summary><strong>Tools & Platforms</strong></summary>
 
 &#8287;**DevOps & Deployment:**<br>
-&#8287;&#8287;• Docker<br>
-&#8287;&#8287;• GitHub Actions<br>
-&#8287;&#8287;• Heroku<br>
-&#8287;&#8287;• AWS<br>
-&#8287;&#8287;• Nginx
+&#8287;&#8287;• Docker  
+&#8287;&#8287;• GitHub Actions  
+&#8287;&#8287;• AWS
+&#8287;&#8287;• Google Cloud Platform (GCP)  
+&#8287;&#8287;• Heroku  
+&#8287;&#8287;• Netlify  
+&#8287;&#8287;• Nginx  
 
 &#8287;**Development & Testing:**<br>
-&#8287;&#8287;• Git<br>
-&#8287;&#8287;• GitHub<br>
-&#8287;&#8287;• VS Code<br>
-&#8287;&#8287;• VirtualBox<br>
-&#8287;&#8287;• Linux<br>
-&#8287;&#8287;• PowerShell<br>
-&#8287;&#8287;• REST APIs<br>
-&#8287;&#8287;• unittest
+&#8287;&#8287;• Git  
+&#8287;&#8287;• GitHub  
+&#8287;&#8287;• VS Code  
+&#8287;&#8287;• Visual Studio  
+&#8287;&#8287;• VirtualBox  
+&#8287;&#8287;• Linux  
+&#8287;&#8287;• Windows  
+&#8287;&#8287;• PowerShell  
+&#8287;&#8287;• REST APIs  
+&#8287;&#8287;• unittest  
+&#8287;&#8287;• Postman  
 </details>
 
 <details>
   <summary><strong>Security</strong></summary>
 
 &#8287;**Core Skills:**<br>
-&#8287;&#8287;• Ethical Hacking<br>
-&#8287;&#8287;• Penetration Testing<br>
-&#8287;&#8287;• Vulnerability Assessment<br>
-&#8287;&#8287;• Secure Coding
-
-&#8287;**Domains:**<br>
-&#8287;&#8287;• Network Security<br>
-&#8287;&#8287;• Application Security<br>
-&#8287;&#8287;• Cryptography<br>
-&#8287;&#8287;• Reverse Engineering
+&#8287;&#8287;• Ethical Hacking  
+&#8287;&#8287;• Penetration Testing  
+&#8287;&#8287;• Vulnerability Assessment  
+&#8287;&#8287;• Secure Coding  
+&#8287;&#8287;• Reverse Engineering  
+&#8287;&#8287;• Cryptography  
+&#8287;&#8287;• Malware Analysis  
 
 &#8287;**Tools & Techniques:**<br>
-&#8287;&#8287;• IDS<br>
-&#8287;&#8287;• Malware Analysis
+&#8287;&#8287;• Nmap  
+&#8287;&#8287;• Wireshark  
+&#8287;&#8287;• Burp Suite  
+&#8287;&#8287;• Metasploit  
+&#8287;&#8287;• John the Ripper  
+&#8287;&#8287;• Hydra  
+&#8287;&#8287;• Aircrack-ng  
+&#8287;&#8287;• OWASP ZAP  
+&#8287;&#8287;• Hashcat  
+&#8287;&#8287;• IDS  
 </details>
+
 
 <h1></h1>
 
