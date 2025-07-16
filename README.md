@@ -235,3 +235,5 @@ These projects are my official HyperionDev software engineering submissions, rev
 This repository is protected by a custom license. See the [LICENSE](LICENSE) file for details.
 
 Unauthorized copying or submission of this work for academic purposes is prohibited.
+
+[Purpose]([https://github.com/hillaryfraley/jobbriefings#purpose](https://github.com/XanderSteyn/HyperionDev/edit/main/README.md#--------------------------------------------------------------------------------------------))
