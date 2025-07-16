@@ -24,10 +24,6 @@
   </p>
 </h1>
 
-<img src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Headers/Table%20of%20Contents.svg" alt="About Me" height="25px"/>
-
-<h1></h1>
-
 <img src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Headers/About%20Me.svg" alt="About Me" height="25px"/>
 
 I'm **Xander Steyn**, a software developer with **5+ years** of hands-on coding experience built on a strong foundation in **cybersecurity**.
@@ -235,5 +231,3 @@ These projects are my official HyperionDev software engineering submissions, rev
 This repository is protected by a custom license. See the [LICENSE](LICENSE) file for details.
 
 Unauthorized copying or submission of this work for academic purposes is prohibited.
-
-[Purpose]([https://github.com/hillaryfraley/jobbriefings#purpose](https://github.com/XanderSteyn/HyperionDev/edit/main/README.md#--------------------------------------------------------------------------------------------))
