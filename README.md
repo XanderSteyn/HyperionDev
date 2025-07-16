@@ -148,41 +148,42 @@ These projects are my official HyperionDev software engineering submissions, rev
     <th style="background-color: red; color: white">Score</th>
   </tr>
   <tr>
-    <td>Capstone Project - Variables and Control Structures</td>
+    <td><a href="https://github.com/XanderSteyn/HyperionDev/tree/main/Level%201/Capstone%20Project%20-%20Variables%20and%20Control%20Structures">Capstone Project - Variables and Control Structures</a></td>
     <td>Level 1</td>
     <td>100%</td>
   </tr>
   <tr>
-    <td>OOP - Synthesis</td>
+    <td><a href="https://github.com/XanderSteyn/HyperionDev/tree/main/Level%201/OOP%20-%20Synthesis">OOP - Synthesis</a></td>
     <td>Level 1</td>
     <td>100%</td>
   </tr>
   <tr>
-    <td>Capstone Project - Task Manager</td>
+    <td><a href="https://github.com/XanderSteyn/HyperionDev/tree/main/Level%201/Capstone%20Project%20-%20Task%20Manager">Capstone Project - Task Manager</a></td>
     <td>Level 1</td>
     <td>100%</td>
   </tr>
   <tr>
-    <td>Capstone Project - Databases</td>
+    <td><a href="https://github.com/XanderSteyn/HyperionDev/tree/main/Level%202/Databases">Capstone Project - Databases</a></td>
     <td>Level 2</td>
     <td>100%</td>
   </tr>
   <tr>
-    <td>Django - Sticky Notes Application</td>
+    <td><a href="https://github.com/XanderSteyn/HyperionDev/tree/main/Level%202/Sticky%20Notes">Django - Sticky Notes Application</a></td>
     <td>Level 2</td>
     <td>100%</td>
   </tr>
   <tr>
-    <td>Capstone Project - News Application</td>
+    <td><a href="https://github.com/XanderSteyn/HyperionDev/tree/main/Level%202/News%20Application">Capstone Project - News Application</a></td>
     <td>Level 2</td>
     <td>In Progress</td>
   </tr>
   <tr>
-    <td>Capstone Project - Consolidation</td>
+    <td><a href="https://github.com/XanderSteyn/HyperionDev/tree/main/Level%203/Capstone%20Project%20-%20Consolidation">Capstone Project - Consolidation</a></td>
     <td>Level 3</td>
     <td>In Progress</td>
   </tr>
 </table>
+
 
 
 <h1></h1>
