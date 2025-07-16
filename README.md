@@ -90,7 +90,6 @@ These projects are my official HyperionDev software engineering submissions, rev
 
 &#8287;**Machine Learning & AI:**<br>
 &#8287;&#8287;• TensorFlow  
-&#8287;&#8287;• PyTorch  
 &#8287;&#8287;• Scikit-learn  
 &#8287;&#8287;• Transformers.js  
 &#8287;&#8287;• MediaPipe  
