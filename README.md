@@ -24,6 +24,10 @@
   </p>
 </h1>
 
+<img src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Headers/Table%20of%20Contents.svg" alt="About Me" height="25px"/>
+
+<h1></h1>
+
 <img src="https://github.com/XanderSteyn/xandersteyn/blob/main/IGNORE/Headers/About%20Me.svg" alt="About Me" height="25px"/>
 
 I'm **Xander Steyn**, a software developer with **5+ years** of hands-on coding experience built on a strong foundation in **cybersecurity**.
